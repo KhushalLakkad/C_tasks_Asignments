@@ -2,7 +2,7 @@
 int main()
 {
 	
-	int a=967,b=716,c=1190;
+	
 	
 	if(a>b)
 	{
