@@ -1,0 +1,217 @@
+*{
+	box-sizing: border-box;
+}
+
+body
+{
+	margin: 0;
+}
+
+.header
+
+{
+	height: auto;
+	width: 100%;
+	background: gray;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+
+.header .p1
+
+{
+	height: 150px;
+	width: 20%;
+	background: red;
+	text-align: center;
+	line-height: 150px;
+}
+
+.header .p2
+
+{
+	height: 150px;
+	width: 20%;
+	background: green;
+	display: flex;
+	text-align: center;
+
+}
+
+.header .p2 .icon
+
+{
+	height: 150px;
+	width: 20%;
+	background: lightblue;
+	line-height: 150px;
+}
+
+.header .p2 .info
+
+{
+	height: 150px;
+	width: 80%;
+	background: lightcoral;
+	padding-top: 25px;
+}
+
+.header .p3
+
+{
+	height: 150px;
+	width: 20%;
+	background: yellow;
+}
+
+.header .p4
+
+{
+	height: 150px;
+	width: 20%;
+	background: blue;
+}
+
+.header .p5
+
+{
+	height: 150px;
+	width: 20%;
+	background: orange;
+}
+
+.subheader
+
+{
+	height: auto;
+	width: 100%;
+	background: gray;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+
+.subheader .links
+
+{
+	height: 50px;
+	width: 50%;
+	background: red;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.subheader .links ul
+
+{
+	margin: 0;
+	padding: 0;
+	
+}
+
+.subheader .links ul li
+
+{
+	list-style: none;
+	display: inline;
+	
+}
+
+.subheader .links ul li a
+
+{
+	text-decoration: none;
+	color: black;
+	font-size: 20px;
+
+	
+}
+
+.subheader .loginInfo
+
+{
+	height: 50px;
+	width: 50%;
+	background: green;
+	
+}
+
+
+
+
+
+
+
+
+@media screen and (min-width: 576px)
+{
+
+	.header .p1 {width: 100%;}
+	.header .p2 {width: 100%;}
+	.header .p3 {width: 100%;}
+	.header .p4 {width: 100%;}
+	.header .p5 {width: 100%;}
+
+	.subheader .links{width: 100%;}
+	.subheader .loginInfo{width: 100%;}
+
+}
+
+
+@media screen and (min-width: 768px)
+{
+
+	.header .p1 {width: 40%;}
+	.header .p2 {width: 60%;}
+	.header .p3 {width: 40%;}
+	.header .p4 {width: 60%;}
+	.header .p5 {width: 100%;}
+
+	.subheader .links{width: 70%;}
+	.subheader .loginInfo{width: 30%;}
+
+}
+
+@media screen and (min-width: 992px)
+{
+
+	.header .p1 {width: 50%;}
+	.header .p2 {width: 50%;}
+	.header .p3 {width: 100%;}
+	.header .p4 {width: 30%;}
+	.header .p5 {width: 70%;}
+
+	.subheader .links{width: 90%;}
+	.subheader .loginInfo{width: 10%;}
+
+}
+
+@media screen and (min-width: 1200px)
+{
+
+	.header .p1 {width: 30%;}
+	.header .p2 {width: 70%;}
+	.header .p3 {width: 33.33%;}
+	.header .p4 {width: 33.33%;}
+	.header .p5 {width: 33.33%;}
+
+	.subheader .links{width: 50%;}
+	.subheader .loginInfo{width: 50%;}
+
+}
+
+
+@media screen and (min-width: 1400px)
+{
+
+	.header .p1 {width: 50%;}
+	.header .p2 {width: 50%;}
+	.header .p3 {width: 50%;}
+	.header .p4 {width: 50%;}
+	.header .p5 {width: 100%;}
+
+	.subheader .links{width: 80%;}
+	.subheader .loginInfo{width: 20%;}
+
+}
